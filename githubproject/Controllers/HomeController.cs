@@ -32,5 +32,11 @@ namespace githubproject.Controllers
 
             return View();
         }
+         public ActionResult Show()
+        {
+            ViewBag.Message = "Your show page.";
+
+            return View();
+        }
     }
 }
